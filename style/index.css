@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+#space{
+    margin:20px 30px;
+
+    border: 3px solid purple;
+    background-color: rgb(190, 160, 200);
+
+    width: 420px;
+    height: 400px;
+
+    position: relative;
+}
+
+#slider{
+    margin: 20px 20px;
+    width: 90%;
+}
+
+.moving-block{
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+.one{ 
+    background-color: rgb(255, 255, 75);
+    margin: 60px 20px;
+}
+.two{ 
+    background-color: rgb(86, 255, 86);
+    margin: 210px 300px; 
+}
